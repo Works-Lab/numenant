@@ -6,20 +6,6 @@
 
 Numenant understands the system it lives in and acts on it. One foundation, built to run any domain.
 
-*In development*
-
-**Checks its work**\
-A change counts once it’s confirmed, not when it’s sent.
-
-**Unknown stays unknown**\
-A missing reading shows as unknown, never as zero.
-
-**Suggestions first**\
-Suggestions come with the readings behind them. You stay in control.
-
-**Learns from you**\
-Your preferences and corrections shape what it suggests next.
-
 <img src="assets/forge.svg" alt="Forge, powered by Numenant" width="100%">
 
 ## Forge
@@ -27,22 +13,26 @@ Your preferences and corrections shape what it suggests next.
 Fabrication. Printing, finishing, and production.\
 *In development*
 
+Forge is in development. This screen shows the design.
+
 <img src="assets/forge-weigh-spool.png" alt="Forge design: weighing a spool" width="100%">
 
-**Filament by weight**\
-Set a spool on the scale. Forge subtracts the empty spool and records what’s left.
+Interface design. Illustrative readings.
 
-**Calibration, test by test**\
+**Weigh a spool**\
+Set a spool on the scale and choose Read scale and save. Forge subtracts the empty spool and records what’s left.
+
+**Calibration**\
 Print a test, pick the best result, and save it to a preset or the printer.
 
-**Every printer at a glance**\
+**Printers**\
 What each printer is printing, what’s loaded, and which calibration it’s using.
 
 **Review before it prints**\
 Nothing starts until you confirm the bed is empty and the plate is seated.
 
-**An assistant that advises**\
-Ask why a print is stringing. Answers draw on your saved tests, and printing stays your call.
+**Ask about a print**\
+Ask why a print is stringing. Printing stays your call.
 
 **Teach Forge**\
 Correct an answer once, and Forge remembers.
@@ -75,9 +65,9 @@ When a sensor reading rises above or falls below a line you set, a device respon
 Hearth suggests changes from your readings, your usual day, and the weather outside, with the reasons behind each one.
 
 **Household**\
-Invite roommates, choose their access, and keep everyone’s space their own.
+Invite people, choose their access, and keep everyone’s space their own.
 
-**Checked, every time**\
+**Checked**\
 Hearth reads a device before every change and checks it after.
 
 Built on Numenant.

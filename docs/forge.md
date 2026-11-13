@@ -8,13 +8,14 @@ Printers, calibration, filament, and prints, in one place.
 
 *In development*
 
+Forge is in development. This screen shows the design.
+
 ## Printers
 
-**Every printer at a glance**\
 What each printer is printing, what’s loaded, and which calibration it’s using.
 
-**Honest when offline**\
-When a printer goes quiet, its readings show as unknown, never as zero. Its last accepted calibration stays on record.
+**Offline**\
+When a printer goes quiet, its readings show as unknown, never as zero.
 
 ## Calibration
 
@@ -31,18 +32,16 @@ Write the result to a filament preset or save it to the printer. Forge shows you
 
 <img src="../assets/forge-weigh-spool.png" alt="Forge design: weighing a spool" width="100%">
 
-**Weigh a spool**\
-Set it on the scale. Forge subtracts the empty spool and records the filament that’s left.
+Interface design. Illustrative readings.
 
-<img src="../assets/forge-add-spool.png" alt="Forge design: adding a spool" width="100%">
+**Weigh a spool**\
+Set it on the scale and choose Read scale and save. Forge subtracts the empty spool and records the filament that’s left.
 
 **Add a spool once**\
 Name, material, color, nominal weight, and the weight of the empty spool.
 
-<img src="../assets/forge-record-usage.png" alt="Forge design: recording filament use" width="100%">
-
 **Record usage**\
-Log what a print or test used, and why.
+Log how much filament a spool used, and why.
 
 **Know where it is**\
 Assign a spool to a printer slot and see its full history.
@@ -50,13 +49,13 @@ Assign a spool to a printer slot and see its full history.
 ## Print
 
 **Review before it prints**\
-Forge checks the file against the printer and the material. Nothing starts until you confirm the bed is empty and the plate is seated.
+Forge reads the nozzle, material, and plate from the file. Nothing starts until you confirm the bed is empty and the plate is seated.
 
 **Sent isn’t printing**\
 Planned, sliced, reviewed, sent, printing, and accepted each mean something different. Forge keeps them apart.
 
 **When it isn’t sure**\
-If a printer never confirms a start, Forge marks the outcome unknown and doesn’t send the print again.
+If a printer never confirms a start, Forge marks the outcome unknown and warns you not to send it again.
 
 **Review the part**\
 Mark a finished part acceptable or not, with notes. A finished print isn’t an accepted part until you say so.
@@ -64,9 +63,9 @@ Mark a finished part acceptable or not, with notes. A finished print isn’t an 
 ## Assistant
 
 **Ask about a print**\
-Why is this PLA stringing? Answers draw on your saved prints and tests.
+Ask why a print is stringing. Pick the print, or ask about all of them.
 
-**Advice, not action**\
+**Advice only**\
 The assistant suggests. Starting a print stays with you.
 
 **Ask out loud**\
@@ -75,5 +74,5 @@ Speak a question instead of typing it, and hear the reply read aloud.
 **Teach Forge**\
 Correct an answer once. Forge remembers it for one print or for every print.
 
-**Gets better with you**\
-Your corrections train a new version of the assistant. It takes over only after it proves better on answers you review.
+**Training**\
+Your corrections train a new version of the assistant. You can switch to it only after it proves better on answers you review.
